@@ -1,0 +1,29 @@
+
+/*
+    Colores
+    #4C4C4C (gris)
+    #22AEE1 (celeste)
+    #ED2A79 (fucsia)
+    #642C8F (violeta)
+*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-gris{
+    background-color:#4C4C4C ;
+}
+.bg-celeste{
+    background-color: #22AEE1;
+}
+.bg-fucsia{
+    background-color: #ED2A79;
+}
+.bg-violeta{
+    background-color:#642C8F ;
+}
+.border-bottom-gris{
+    border-bottom: 8px solid #4C4C4C;
+}
+.foto{
+    max-width: 150px;
+}
