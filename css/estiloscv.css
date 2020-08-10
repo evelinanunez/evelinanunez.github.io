@@ -8,7 +8,19 @@
 */
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color:#fff
 }
+
+
+/*Footer*/
+a:hover{
+    text-decoration: none;
+}
+.tamaño-iconos{
+    font-size: 3rem important!;
+}
+
+/*Clases colores*/
 .bg-gris{
     background-color:#4C4C4C ;
 }
@@ -18,12 +30,93 @@ body{
 .bg-fucsia{
     background-color: #ED2A79;
 }
+.bg-black{
+    background-color: #000;
+}
 .bg-violeta{
     background-color:#642C8F ;
 }
 .border-bottom-gris{
-    border-bottom: 8px solid #4C4C4C;
+    border-bottom: 5px solid #FF8C00;
 }
+.bg-coral{
+    background-color: #FFA07A;
+}
+.bg-tomato{
+    background-color: #FF6347;
+}
+.bg-salmonclaro{
+    background-color: #FFA07A;
+}
+.bg-salmon{
+    background-color: #FA8072;
+}
+.bg-indiancolor{
+    background-color: #CD5C5C;
+}
+.bg-naranja{
+    background-color: #FF8C00;
+}
+.bg-peru{
+    background-color: #CD853F;
+}
+.bg-marronclaro{
+    background-color: #F4A460;
+}
+.bg-rosita{
+    background-color: #FFE4C4;
+}
+.bg-blanco{
+    background-color: #fff;
+}
+.bg-gris-oscuro{
+    background-color: #2F4F4F;
+}
+.bg-amarillo{
+    background-color: #FFFF00;
+}
+/*clases header*/
 .foto{
     max-width: 150px;
+}
+
+.border-contenedores{
+    border-radius: 0.9rem;
+    border: 2px solid #4C4C4C;
+}
+.opacidad-contenedores{
+    opacity: 0.5;
+}
+.columnas{
+    flex-wrap: nowrap;
+}
+.texto-gris{
+    color:#4C4C4C important!;
+}
+i{
+    font-size: 10rem;
+}
+footer i{
+    font-size: 3rem;
+}
+a{
+    color: #fff;
+}
+.arriba{
+    display: block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    background-color:#00FF00;
+    background-image: url(../img/arriba.png);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-size: cover;
+    z-index: 1;
+}
+@media screen and (min-width:47em){
+    i{
+        font-size: 15rem;
+    }
 }
