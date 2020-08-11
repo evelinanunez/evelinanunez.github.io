@@ -1,0 +1,42 @@
+
+main{
+    margin:auto;
+    width: 90%;
+}
+article{
+    border: 0.2em solid #4C4C4C;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 2em;
+    text-align: center;
+}
+h2{
+    background-color: #FF8C00;
+    text-transform: uppercase;
+    display: block;
+}
+
+.contenedor-flexbox{
+    display: flex;
+}
+.contenedor-flexbox article{
+    width: calc(45% - 1em); /*Para  hacer dos columnas */
+
+}
+.tamaño-img{
+    max-width: 150px; /*Para establecerle un tamaño maximo*/
+}
+.btn{
+    border-radius: 0.25rem;
+    background-color:#FF6347; ;
+    margin-bottom: 1em;
+    margin-right: 0;
+}
+.centrado{
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.margin{ 
+    margin: 2em;
+}
