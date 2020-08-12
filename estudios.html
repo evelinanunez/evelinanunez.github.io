@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/f7c13e0ce5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estiloscv.css">
+    <link rel="stylesheet" href="css/estudios.css">
+    <script src="js/estudios.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <title>CV_EVELINA_NUNEZ</title>
+  </head>
+  
+  <body>
+        <header id="inicio">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom-gris  ">
+                <a class="navbar-brand" href="#">
+                    <img src="img/foto4x4.jpg" alt="foto" class="img-fluid foto rounded-circle">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse justify-content-end  " id="navbarSupportedContent">
+                  <ul class="navbar-nav p-0 ">
+                    <li class="nav-item active ">
+                      <a class="nav-link" href="index.html">Principal <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item  ">
+                      <a class="nav-link " href="#">Estudios</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Portafolio</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link" href="trabajos-academicos.html" target="blank">Trabajos acad&eacutemicos</a>
+                    </li>
+                  </ul>
+                
+                </div>
+              </nav>
+              
+        </header>
+        <main>
+            <section class="container m-2 p-5" >
+                <div class="row justify-content-center">
+                    <i class="fas fa-university icono-unlam"></i>
+                    <h2 class="text-uppercase bg-naranja text-center">Estudios universitarios</h2>
+                </div>
+                <div class="row p-3">
+                    <article class="col-12 col-md-6">
+                       <div class="text-center  " >
+                            <img src="img/logo-unlam.png" alt="" class="img-fluid logo-unlam">
+                            <a href="https://www.unlam.edu.ar/index.php?seccion=3&idArticulo=399" target="blank" id="linkcarrera"><p>Carrera: Tec. en desarrollo web</p></a>
+                            <p>En curso</p>
+                            <div class="p-3">
+                              <a href="" class="btn btn-dark">Descargar plan de Estudio</a>
+                            </div>
+                            <input type="button" value="Mostrar detalle" id="boton2" class=" btn btn-danger" onclick="mostrardetalle2()" >
+                            <div class="mt-2 p-2 " >
+                                <div class="display-none" id="detalle2">
+                                <table class="table">                              
+                                    <thead class="thead-dark">
+                                      <tr>                                 
+                                        <th scope="col">Materias aprobadas</th>
+                                        <th scope="col">Total materias</th>    
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>7</td>
+                                        <td>20</td>
+                                      </tr>                                
+                                    </tbody>
+                                  </table>
+                                    </tbody>
+                                  </table>
+                                  <div class="texto-izquierda">
+                                    <p>
+                                        Detalle materías aprobadas:
+                                      </p>
+                                      <li>PROGRAMACION BASICA I</li>
+                                      <li> INFORMATICA GENERAL</li>
+                                      <li>MATEMATICA GENERAL</li>
+                                      <li>INGLES TECNICO I</li>
+                                      <li>PROGRAMACION BASICA II</li>
+                                      <li>PROGRAMACION WEB I</li>
+                                      <li>INTRODUCCION AL DISEÑO GRAFICO EN LA WEB</li>
+                                      
+                                  </div>
+
+                                </div>
+                            </div>
+                                
+                  
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6">
+                        <div class="text-center ">
+                            <img src="img/logo-unlam.png" alt="" class="img-fluid logo-unlam ">
+                            <a href="https://www.unlam.edu.ar/index.php?seccion=3&idArticulo=43" target="blank" id="linkcarrera"><p>Carrera: Lic.en administración</p></a>
+                            <p>Pausado </p>
+                            <div class="p-3">
+                              <a href="" class="btn btn-dark">Descargar plan de Estudio</a>
+                            </div>
+                            <input type="button" value="Mostrar detalle" id="boton" class=" btn btn-danger" onclick="mostrardetalle()" >
+                            <div class="mt-2 p-2 display-none" id="detalle" >
+                              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ratione, unde nisi voluptate ad possimus officiis quam illo earum in quaerat quis quas tenetur nihil natus esse eligendi ipsam voluptatem?</p>  
+                              <table class="table ">
+                                    <thead class="thead-dark">
+                                      <tr>                                 
+                                        <th scope="col">Materias aprobadas</th>
+                                        <th scope="col">Total materias</th>    
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>27</td>
+                                        <td>36</td>
+                                      </tr>                                
+                                    </tbody>
+                                  </table>
+                                    </tbody>
+                                  </table>
+                  
+                            </div>
+                            
+
+                        </div>
+                    </article>
+                </div>
+ 
+            </section>
+        </main>
+        <a href="#inicio" class="arriba"></a>
+        <footer class="container-fluid bg-black justify-content-between text-center border-bottom-gris">
+         
+          <div class="row ">
+            <div class="col-12 col-md-4 p-2 border-bottom ">
+              <h4 class="text-uppercase text-white bg-gris d-inline text-center ">Mis redes</h4>
+              <div class="p-4" >
+                <a href="https://github.com/evelinanunez" target="blank"><i class="fab fa-github p-2"></i></a>
+                <a href="https://www.linkedin.com/in/evelina-nu%C3%B1ez-163684113/" target="blank" ><i class="fab fa-linkedin-in p-2"></i></a> 
+              </div>
+            </div>
+            <div class="col-12 col-md-4 py-2 border-bottom p-4">
+                <button class="btn btn-danger">
+                  <a>Descargar en PDF</a>
+                </button>
+            </div>
+            <div class="col-12 col-md-4 py-2  ">
+              <h4 class="text-uppercase text-white bg-gris d-inline">Contactame</h4>
+              <div class="p-4">
+                <a href="mailto:evelinacelestenunez@gmail.com"><i class="far fa-envelope p-2"></i></a>
+              </div>
+             
+            </div>
+            </div>
+            
+          </div>
+        </footer>
+        <div class="container-fluid bg-naranja  text-white ">
+          <div class="row justify-content-center">
+            <small>- Nuñez Evelina Celeste -</small>
+          </div>
+        
+        </div>
+     
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

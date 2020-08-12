@@ -1,0 +1,24 @@
+main{
+    margin: auto;
+    width: 90%;
+}
+.icono-unlam{
+    font-size: 3rem;
+}
+.logo-unlam{
+    max-width: 150px;
+}
+.texto-izquierda{
+    text-align: left ;
+}
+#linkcarrera{
+    color: #000;
+}
+.borde-solido{
+    border: 0.2em solid #4C4C4C;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+.display-none{
+    display: none;
+}
