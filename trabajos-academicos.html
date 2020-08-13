@@ -46,22 +46,56 @@
               
         </header>
         <main>
-            <div class="centrado">
-                <h2 >Un poco de JavaScript</h2>
-            </div>
-            <div class="margin">
-                <h3>Ejemplo ocultar y mostrar con JavaScrip puro</h3>
+          <div class="text-center">
+            <h2 >Un poco de JavaScript</h2>
+          </div>
+            <section class="container-fluid">
+              <article class="row">
+
+                <div class="col-12 col-md-3 text-center bg-amarillo p-2 m-2">
+                <h3 m-2>Ejemplo ocultar y mostrar con JavaScrip puro</h3>
+                <div>
                 <input type="button" class="btn" value="mostrar" id="boton" onclick="mostrarOcultar()">
                 <div id="texto" class="display-none" >
                     <img src="img/mujer-programando.jpg" alt="" class="tamaño-img">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vitae consequuntur mollitia incidunt! Itaque architecto nam iusto quibusdam aspernatur quasi totam nihil dolores assumenda qui voluptates magnam officiis, quam deleniti!</p>
                 </div>
-               
+                </div>
+                </div>
+                <div class="col-12 col-md-3 bg-celeste  text-center p-2 m-2">
+                  <h3>Validación de formulario</h3>
+                  <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                    <div class="d-block">
+                      <label for="nombre" >Nombre:</label>
+                      <input type="text" name="nombre" id="nombre"> 
+                    </div>
+                    <div class="d-block">
+                      <label for="nombre" >Apellido:</label>
+                      <input type="text" name="apellido" id="apellido"> 
+                    </div>
+                    <div>
+                      <label for="email">Email: </label>
+                      <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                      <label for="tel">Telefono:</label>
+                      <input type="tel" name="tel" id="tel">
+                    </div>
+                    <div>
+                      <label for="mensaje" class="d-block ">Mensaje:</label>
+                      <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+                  </form>
+                </div>
+                  
+              </article>
+
+            </section>
+           
+              
                 
-                
-                
-            </div>
-      
+           
 
         </main>
         <a href="#inicio" class="arriba"></a>
@@ -77,7 +111,7 @@
             </div>
             <div class="col-12 col-md-4 py-2 border-bottom p-4">
                 <button class="btn btn-danger">
-                  <a>Descargar en PDF</a>
+                  <a href="img/CV_NUNEZ_EVELINA.pdf" target="blank" >Descargar en PDF</a>
                 </button>
             </div>
             <div class="col-12 col-md-4 py-2  ">

@@ -7,7 +7,10 @@ main{
 h2{
     background-color: #FF8C00;
     text-transform: uppercase;
-    display: block;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;;
 }
 .display-none{
     display: none;

@@ -102,6 +102,9 @@ footer i{
 a{
     color: #fff;
 }
+a:hover{
+    color:#FFFF00;
+}
 .color-icono{
     color: #fff;
 }
