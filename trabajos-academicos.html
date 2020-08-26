@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="css/trabajos-academicos.css">
     <script src="js/trabajos-academicos.js"></script>
     <script src="js/jquery.min.js"></script>
+
+    
     <title>CV_EVELINA_NUNEZ</title>
+
   </head>
   <body>
         <header id="inicio" >
@@ -37,7 +40,7 @@
                         <a class="nav-link" href="#">Portafolio</a>
                     </li>
                     <li class="nav-item  ">
-                        <a class="nav-link" href="#" onfocus="">Trabajos acad&eacutemicos </a>
+                        <a class="nav-link" href="#" >Trabajos acad&eacutemicos </a>
                     </li>
                   </ul>
                 
@@ -46,14 +49,16 @@
               
         </header>
         <main>
-          <div class="text-center">
-            <h2 >Un poco de JavaScript</h2>
-          </div>
+          
             <section class="container-fluid">
-              <article class="row">
+              <div class="text-center">
+                <h2>Mis conocimientos académicos </h2>
+              </div>
+              <article class="row ">
 
-                <div class="col-12 col-md-3 text-center bg-amarillo p-2 m-2">
-                <h3 m-2>Ejemplo ocultar y mostrar con JavaScrip puro</h3>
+                <div class="col-12 col-md-4 col-lg-3 text-center bg-amarillo p-2 m-2" >
+
+                <h4 class="m-2" >Ejemplo ocultar y mostrar con JavaScrip puro</h4>
                 <div>
                 <input type="button" class="btn" value="mostrar" id="boton" onclick="mostrarOcultar()">
                 <div id="texto" class="display-none" >
@@ -62,16 +67,33 @@
                 </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-3 bg-celeste  text-center p-2 m-2">
-                  <h3>Validación de formulario</h3>
-                  <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+
+                <div class="col-12 col-md-4 col-lg-3 bg-celeste  text-center p-2 m-2">
+                  <h4>Validación de formulario con JS puro</h4>
+                  <form action="#" method="post" onsubmit="return validar()"enctype="application/x-www-form-urlencoded" >
                     <div class="d-block">
                       <label for="nombre" >Nombre:</label>
-                      <input type="text" name="nombre" id="nombre"> 
+                      <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre"> 
                     </div>
                     <div class="d-block">
                       <label for="nombre" >Apellido:</label>
-                      <input type="text" name="apellido" id="apellido"> 
+                      <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido"> 
+                    </div>
+                    <div>
+                      <label for="direccion">Dirección</label>
+                      <input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección">
+                    </div>
+                    <div>
+                      <label for="ciudades">Ciudad</label>
+                      <input list="ciudades" name="ciudad" id="ciudad">
+                      <datalist id="ciudades">
+                        <option value="Ciudad de Buenos Aires" >
+                        <option value="Zona Oeste">
+                        <option value="Zona Norte">
+                        <option value="Zona Sur">
+                        <option value="Zona Este">
+                        <option value="Otro">
+                    </datalist>  
                     </div>
                     <div>
                       <label for="email">Email: </label>
@@ -79,20 +101,48 @@
                     </div>
                     <div>
                       <label for="tel">Telefono:</label>
-                      <input type="tel" name="tel" id="tel">
+                      <input type="tel" name="tel" id="tel" placeholder="Ingrese su teléfono">
                     </div>
                     <div>
-                      <label for="mensaje" class="d-block ">Mensaje:</label>
-                      <textarea name="" id="" cols="30" rows="10"></textarea>
+                      <label for="consultaSexo">Sexo</label>
+                      <label for="femenino">Femenino</label> <input type="radio" name="sexo" >
+                      <label for="masculino">Masculino</label> <input type="radio" name="sexo">
                     </div>
-                    <input type="submit" value="Enviar">
+                    <div>
+                      <label for="">¿Ejemplo de pregunta?</label>
+                       si<input type="radio" name="pregunta" value="si" onchange="mostrarYocultarInput()"> 
+                       no <input type="radio" name="pregunta" value="no" onchange="mostrarYocultarInput()">
+                    </div>
+                    <div class="ocularTextarea" id="ejemplo">
+                      <label for="">Si tu respuesta fue si, por favor completa el campo ejemplo:</label>
+                      <textarea name="ejemplo"  cols="30" rows="5" ></textarea>
+                    </div>
+                    <div>
+
+                    </div>
+                    <input type="submit" value="Enviar" class="btn">
+                    <div  id="mensajes" class="error">
+
+                    </div>
                   </form>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 bg-naranja  text-center p-2 m-2">
+                    <h4>TP Programación web</h4>
+                    <div class="  text-center" id="img-tp-web" >
+                      <img src="img/TpWeb1.jpg"  alt="" class="img-fluid "  >
+                      <div>
+                        <a href="https://github.com/evelinanunez/tp-web1" target="blank" class="btn btn-danger m-2 ">Link Pagina Web</a>
+                      </div>
+                      
+                    </div>  
+                    
                 </div>
                   
               </article>
-
+              
+            
             </section>
-           
+            
               
                 
            
@@ -125,6 +175,7 @@
             
           </div>
         </footer>
+
         <div class="container-fluid bg-naranja  text-white ">
           <div class="row justify-content-center">
             <small>- Nuñez Evelina Celeste -</small>

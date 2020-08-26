@@ -34,3 +34,14 @@ h2{
 .margin{ 
     margin: 2em;
 }
+#img-tp-web{
+    max-width: 20em;
+    background-size: cover;
+}
+.ocularTextarea{
+    display: none;
+}
+
+@media screen and (min-width:47em){
+   
+}
