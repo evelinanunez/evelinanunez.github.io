@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+}
+.hijo{
+    width: calc( 40% - 1em);
+}
+.mapa iframe{
+    width: 100%;
+    height: 600px;
+}
