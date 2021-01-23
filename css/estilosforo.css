@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+ color: #000;
+}
+.text-white{
+    color:#fff;
+}
+.bg-violeta{
+    background-color:#553d83;
+}
+.bg-naranja{
+    background-color: #ee9a29;
+}
+.bg-morado{
+    background-color: #e65e39;
+}
+
+.bg-verde{
+    background-color: #4cb050;
+}
+.text-violeta{
+    color:#553d83;
+}
+.text-naranja{
+    color: #ee9a29
+}
+.text-morado{
+    color: #e65e39;
+}
+.text-verde{
+    color:#4cb050;
+}

@@ -1,0 +1,119 @@
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+a:hover{
+    color: #fff;
+}
+a{
+    color:#fff;
+}
+.form-control{
+    border-radius: 0;
+    border:0;
+    border-bottom: 1px solid#000;
+    color:#000; 
+    z-index: 8;
+}
+.bg-verde{
+    background-color: #4cb050;    
+}
+.bg-negro{
+    background-color: #000;
+}
+.bg-lapices{
+  
+    background-repeat: repeat-x;
+}
+.text-white{
+    color: #fff!;
+}
+
+
+#fondo-lapices{
+    height: 250px;
+    background-image: url(../img/lapices.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.contenedor-video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+
+}
+
+.contenedor-video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.arriba{
+    display: block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid #000;
+    background-color: rgb(98, 91, 91);
+    background-image: url(../img/arriba.png);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-size: cover;
+    z-index: 1;
+}
+.card-body{
+    border-top: rgb(231, 142, 8);
+
+}
+#primerospasos{
+    color: rgb(231, 142, 8);
+    font-weight: 300;
+    font-size: 25px;
+
+}
+.botonera{
+    padding: 1rem;
+    border-top: 4 rem solid;
+}
+.bg-violeta{
+    background-color:#553d83;
+}
+.bg-naranja{
+    background-color: #ee9a29;
+}
+.bg-morado{
+    background-color: #e65e39;
+}
+
+.text-violeta{
+    color:#553d83;
+}
+.text-naranja{
+    color: #ee9a29
+}
+.text-morado{
+    color: #e65e39;
+}
+.text-verde{
+    color:#4cb050;
+}
+
+#borde-card-naranja{
+    border-top: 1rem solid #ee9a29  ;
+}
+#borde-card-violeta{
+    border-top: 1rem solid #553d83 ;
+}
+#borde-card-morado{
+    border-top: 1rem solid  #e65e39;
+}
+#borde-card-verde{
+    border-top: 1rem solid #4cb050;
+}
